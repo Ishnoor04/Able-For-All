@@ -20,11 +20,11 @@ import PartComm2 from './PartComm/PartComm2.png'
 import PartComm3 from './PartComm/PartComm3.png'
 import PartComm4 from './PartComm/PartComm4.png'
 import PartComm5 from './PartComm/PartComm5.png'
-import HouseHold1 from './HouseHold/HouseHold1.png'
-import HouseHold2 from './HouseHold/HouseHold2.png'
-import HouseHold3 from './HouseHold/HouseHold3.png'
-import HouseHold4 from './HouseHold/HouseHold4.png'
-import HouseHold5 from './HouseHold/HouseHold5.png' 
+import Household1 from './Household/Household1.png'
+import Household2 from './Household/Household2.png'
+import Household3 from './Household/Household3.png'
+import Household4 from './Household/Household4.png'
+import Household5 from './Household/Household5.png' 
 import GroupCenter1 from './GroupCenter/GroupCenter1.png'
 import GroupCenter2 from './GroupCenter/GroupCenter2.png'
 import GroupCenter3 from './GroupCenter/GroupCenter3.png'
@@ -74,11 +74,11 @@ export {
   PartComm3,
   PartComm4,
   PartComm5,
-  HouseHold1,
-  HouseHold2,
-  HouseHold3,
-  HouseHold4,
-  HouseHold5,
+  Household1,
+  Household2,
+  Household3,
+  Household4,
+  Household5,
   GroupCenter1,
   GroupCenter2,
   GroupCenter3,

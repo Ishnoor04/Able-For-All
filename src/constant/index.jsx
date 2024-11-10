@@ -11,11 +11,11 @@ import {
   PartComm3,
   PartComm4,
   PartComm5,
-  HouseHold1,
-  HouseHold2,
-  HouseHold3,
-  HouseHold4,
-  HouseHold5,
+  Household1,
+  Household2,
+  Household3,
+  Household4,
+  Household5,
   GroupCenter1,
   GroupCenter2,
   GroupCenter3,
@@ -452,31 +452,31 @@ export const householdTasks = {
   img: Slider2,
   whatWeProvide: [
     {
-      img: HouseHold1,
+      img: Household1,
       title: "Cleaning and Organizing",
       content:
         "We offer support with regular cleaning tasks like dusting, vacuuming, and tidying up to ensure a comfortable and clean living environment. Our team assists clients in organizing spaces to reduce clutter, helping to create a more functional and welcoming home that promotes peace of mind and efficiency.",
     },
     {
-      img: HouseHold2,
+      img: Household2,
       title: "Meal Preparation",
       content:
         "Our service includes assistance with meal planning and preparation, ensuring clients enjoy balanced, nutritious meals. We help clients plan meals, shop for ingredients, and prepare food, making healthy eating convenient and accessible. This support fosters independence in the kitchen and encourages clients to make informed choices about their diet.",
     },
     {
-      img: HouseHold3,
+      img: Household3,
       title: "Laundry Services",
       content:
         "We provide help with all laundry-related tasks, from washing and drying to folding and organizing clothing. Our team ensures clients have clean, fresh clothes ready to wear, promoting personal hygiene and independence. This service also supports clients in managing their wardrobes, keeping items well-maintained and orderly.",
     },
     {
-      img: HouseHold4,
+      img: Household4,
       title: "Home Safety Upkeep",
       content:
         "Our team assists with regular home safety checks, ensuring that clients' homes remain safe and hazard-free. We provide guidance on basic maintenance and can help with minor repairs or coordinating further assistance if needed. This service promotes a secure home environment where clients can feel confident and comfortable.",
     },
     {
-      img: HouseHold5,
+      img: Household5,
       title: "Basic Pet Care",
       content:
         "For clients with pets, we offer support in managing essential pet care tasks such as feeding, basic grooming, and cleaning up after pets. This ensures that clients can enjoy the companionship of their pets while maintaining a tidy and well-cared-for home environment for both themselves and their pets.",
