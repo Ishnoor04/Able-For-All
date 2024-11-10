@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Yeseva+One&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-prime {
+  color: #653e98;
+}
+
+.text-orange {
+  color: #f4763f;
+}
+
+.text-blue {
+  color: #2794d1;
+}
+
+.text-green {
+    color: #83c55e
+}
+
+.text-purple {
+    color: #9c3587
+}
+
+.text-teal {
+    color: #54b095
+}
