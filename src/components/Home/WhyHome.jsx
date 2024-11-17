@@ -1,47 +1,48 @@
 import React from "react";
 import styles from "../../style";
 import { motion } from "framer-motion";
+import { Why1, Why2, Why3, Why4, Why5, Why6 } from "../../assets";
 const reasonCards = [
   {
     title: "Expert Care",
     description:
       "Our team of certified professionals brings extensive experience in personalized support services, ensuring high-quality care tailored to each client.",
-    icon: "🏆",
+    icon: Why1,
     gradient: "from-blue-400 to-blue-600",
   },
   {
     title: "Tailored Support",
     description:
       "We design customized care plans based on individual needs, preferences, and goals, empowering clients to lead fulfilling lives.",
-    icon: "🌟",
+    icon: Why2,
     gradient: "from-purple-400 to-purple-600",
   },
   {
     title: "Innovative Approach",
     description:
       "Our services incorporate the latest in care techniques and technology, offering a modern and effective approach to client support.",
-    icon: "💡",
+    icon: Why3,
     gradient: "from-teal-400 to-teal-600",
   },
   {
     title: "Compassionate Team",
     description:
       "Our team is committed to treating every client with respect, empathy, and understanding, fostering a warm and welcoming environment.",
-    icon: "💖",
+    icon: Why4,
     gradient: "from-pink-400 to-pink-600",
   },
   {
     title: "Reliable Assistance",
     description:
       "We provide consistent, dependable support services that clients and their families can count on, ensuring peace of mind every day.",
-    icon: "🕒",
+    icon: Why5,
     gradient: "from-green-400 to-green-600",
   },
   {
     title: "Community Integration",
     description:
       "Our services are designed to help clients stay connected to their communities, enhancing social connections and promoting independence.",
-    icon: "🌍",
+    icon: Why6,
     gradient: "from-orange-400 to-orange-600",
   },
 ];
@@ -89,11 +90,11 @@ const WhyChooseUs = () => {
             {/* Card Content */}
             <div className='relative bg-[#f5f5f5] rounded-3xl p-6 h-full'>
               {/* Icon Container */}
-              <div className='flex flex-row items-center justify-start gap-2'>
+              <div className='flex flex-row items-center justify-start gap-2 mb-2'>
                 <div
-                  className={`w-12 h-12 rounded-lg flex items-center justify-center transform group-hover:scale-110 transition-transform duration-300`}
+                  className={`sm:w-9 sm:h-9 w-6 h-6 rounded-lg flex items-center justify-center transform group-hover:scale-110 transition-transform duration-300`}
                 >
-                  <span className='text-2xl text-white'>{card.icon}</span>
+                  <img src={card.icon} alt={card.title} className=""/>
                 </div>
 
                 {/* Title */}

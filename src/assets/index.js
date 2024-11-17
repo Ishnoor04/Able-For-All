@@ -50,6 +50,12 @@ import Respite2 from './Respite/Respite2.png'
 import Respite3 from './Respite/Respite3.png'
 import Respite4 from './Respite/Respite4.png'
 import Respite5 from './Respite/Respite5.png'
+import Why1 from './Why/Why1.svg'
+import Why2 from './Why/Why2.svg'
+import Why3 from './Why/Why3.svg'
+import Why4 from './Why/Why4.svg'
+import Why5 from './Why/Why5.svg'
+import Why6 from './Why/Why6.svg'
 
 export {
   Logo,
@@ -104,4 +110,10 @@ export {
   Respite3,
   Respite4,
   Respite5,
+  Why1,
+  Why2,
+  Why3,
+  Why4,
+  Why5,
+  Why6,
 };
