@@ -6,6 +6,7 @@ import ServiceSlider from './ServiceSlider'
 import CTA from '../Reusable/CTA'
 import Footer from '../Reusable/Footer'
 import WhyChooseUs from './WhyHome'
+import { Home1, Home4, Home6 } from '../../assets'
 const Home = () => {
   return (
     <>
@@ -16,6 +17,12 @@ const Home = () => {
         <AboutHome />
         <CTA/>
         <Footer/>
+        <div className='hidden'>
+          <img src={Home4} alt="" />
+          <img src={Home1} alt="" />
+          <img src={Home6} alt="" />
+
+        </div>
     </>
   )
 }
