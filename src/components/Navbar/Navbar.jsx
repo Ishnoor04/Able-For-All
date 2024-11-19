@@ -2,12 +2,13 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import NavLinks from "./Navlinks";
 import { Logo } from "../../assets";
+import styles from "../../style";
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   return (
     <nav className=' z-10 bg-prime'>
       <div className='flex items-center font-medium justify-around'>
-        <div className='z-50 p-4 md:w-auto w-full flex justify-between items-center'>
+        <div className={`z-50 p-4 md:w-auto w-full flex justify-between items-center  ${styles.marginX}`}>
           <Link to='/'>
             <img
               src={Logo}

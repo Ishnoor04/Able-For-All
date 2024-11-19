@@ -95,7 +95,7 @@ const Footer = () => {
           <div>
             <h3 className='text-lg font-semibold mb-6'>Get in Touch</h3>
             <ul className='space-y-4'>
-              {["Phone", "Email", "Address"].map((contact) => (
+              {["Phone: 0452 489 098", "Email: info@ableforall.com.au"].map((contact) => (
                 <motion.li
                   key={contact}
                   whileHover={{ x: 5 }}

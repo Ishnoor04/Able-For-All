@@ -17,6 +17,7 @@ import {
 } from "./constant";
 import { useEffect } from "react";
 import Lenis from "lenis";
+
 function App() {
   const { pathname } = useLocation();
 
@@ -36,6 +37,19 @@ function App() {
 
     requestAnimationFrame(raf);
   }, [pathname]);
+
+  useEffect(() => {
+    const data = async () => {
+      const response = await fetch("https://email-backend-r8co.onrender.com/", {
+        method: "GET",
+        headers: {
+          "Content-Type": "application/json",
+        },
+      });
+    };
+    data();
+  }, []);
+
   return (
     <Routes>
       <Route path='/' element={<Home />} />
