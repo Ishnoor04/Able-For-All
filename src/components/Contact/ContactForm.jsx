@@ -22,7 +22,7 @@ const ContactForm = () => {
           message,
           phone,
           // to: "info@tradeoz.au",
-          to: "ishnoorsinghsethi@gmail.com",
+          to: "info@ableforall.com.au",
         }),
       }
     );
