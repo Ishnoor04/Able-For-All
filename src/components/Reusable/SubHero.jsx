@@ -17,12 +17,11 @@ const SubHero = ({
           relative ${height} w-full overflow-hidden
           rounded-[2rem] md:rounded-[3rem]
           border border-white/10
+          bg-cover bg-center
+          md:bg-fixed
         `}
         style={{
           backgroundImage: `url(${backgroundImage})`,
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-          backgroundAttachment: 'fixed',
         }}
       >
         {/* Glass Morphism Effect */}
