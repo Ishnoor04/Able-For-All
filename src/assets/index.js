@@ -56,6 +56,7 @@ import Why3 from './Why/Why3.svg'
 import Why4 from './Why/Why4.svg'
 import Why5 from './Why/Why5.svg'
 import Why6 from './Why/Why6.svg'
+import NDISlogo from './iheartndis.svg'
 
 export {
   Logo,
@@ -116,4 +117,5 @@ export {
   Why4,
   Why5,
   Why6,
+  NDISlogo,
 };

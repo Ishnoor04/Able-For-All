@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import styles from "../../style";
-import { Logo } from "../../assets";
+import { Logo, NDISlogo } from "../../assets";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -22,7 +22,10 @@ const Footer = () => {
               whileInView={{ opacity: 1 }}
               transition={{ duration: 0.5 }}
             >
-              <img src={Logo} alt='' className='h-[7rem] mb-4 mx-auto' />
+              <div className='flex justify-start items-center gap-7'>
+                <img src={Logo} alt='' className='h-[7rem] mb-4' />
+                <img src={NDISlogo} alt='' className='h-[5rem] mb-4' />
+              </div>
               <p className={`${styles.paragraph} mt-4`}>
                 Empowering lives through compassionate care. We deliver
                 personalized support for a healthier, more independent future.
