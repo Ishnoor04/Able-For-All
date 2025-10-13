@@ -10,7 +10,7 @@ const ContactForm = () => {
   const submitHandler = async (event) => {
     event.preventDefault();
     const response = await fetch(
-      "https://emailbackend-u38ymf2x.b4a.run/sendemail",
+      "https://email-backend-48l7.vercel.app/sendemail",
       {
         method: "POST",
         headers: {
