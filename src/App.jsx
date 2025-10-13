@@ -38,17 +38,17 @@ function App() {
     requestAnimationFrame(raf);
   }, [pathname]);
 
-  useEffect(() => {
-    const data = async () => {
-      const response = await fetch("https://email-backend-r8co.onrender.com/", {
-        method: "GET",
-        headers: {
-          "Content-Type": "application/json",
-        },
-      });
-    };
-    data();
-  }, []);
+  // useEffect(() => {
+  //   const data = async () => {
+  //     const response = await fetch("https://email-backend-r8co.onrender.com/", {
+  //       method: "GET",
+  //       headers: {
+  //         "Content-Type": "application/json",
+  //       },
+  //     });
+  //   };
+  //   data();
+  // }, []);
 
   return (
     <Routes>

@@ -10,7 +10,7 @@ const ContactForm = () => {
   const submitHandler = async (event) => {
     event.preventDefault();
     const response = await fetch(
-      "https://email-backend-r8co.onrender.com/sendemail",
+      "https://emailbackend-u38ymf2x.b4a.run/sendemail",
       {
         method: "POST",
         headers: {
