@@ -386,12 +386,12 @@ export const serviceSliderData = [
   //   link: "/daily-personal-activities",
   //   img: Slider5,
   // },
-  {
-    name: "Community Nursing Care",
-    content: `Community Nursing Care provides essential medical and health-related support directly within the community. Our skilled nurses offer assistance with medication management, wound care, health monitoring, and other healthcare needs, ensuring clients receive compassionate and professional care.`,
-    link: "/community-nursing-care",
-    img: Slider6,
-  },
+  // {
+  //   name: "Community Nursing Care",
+  //   content: `Community Nursing Care provides essential medical and health-related support directly within the community. Our skilled nurses offer assistance with medication management, wound care, health monitoring, and other healthcare needs, ensuring clients receive compassionate and professional care.`,
+  //   link: "/community-nursing-care",
+  //   img: Slider6,
+  // },
   {
     name: "Assist Travel Transport",
     content: `Our Assist Travel and Transport service ensures that clients have access to safe and reliable transportation options. Whether attending appointments, social gatherings, or running errands, our team provides dependable travel support to help clients maintain an active and connected lifestyle.`,

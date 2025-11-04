@@ -99,7 +99,7 @@ const Footer = () => {
             <h3 className='text-lg font-semibold mb-6'>Get in Touch</h3>
             <ul className='space-y-4'>
               {[
-                { text: "Phone: 0452 489 098", link: "tel:0452489098" },
+                { text: "Phone: 0403 888 517", link: "tel:0403888517" },
                 { text: "Email: info@ableforall.com.au", link: "mailto:info@ableforall.com.au" },
               ].map((contact) => (
                 <motion.li

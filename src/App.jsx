@@ -76,10 +76,10 @@ function App() {
         path='/services/daily-task-shared-living'
         element={<SubService serviceDetails={dailyTaskSharedLiving} />}
       />
-      <Route
+      {/* <Route
         path='/services/community-nursing-care'
         element={<SubService serviceDetails={communityNursingCare} />}
-      />
+      /> */}
       <Route
         path='/services/assist-travel-transport'
         element={<SubService serviceDetails={assistTravelTransport} />}
